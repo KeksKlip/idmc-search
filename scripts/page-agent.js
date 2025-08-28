@@ -44,9 +44,9 @@ function injectSearchButton(toolbarActionsUl) {
         </div>
     `;
 
-    const separatorLi = document.createElement('li');
-    separatorLi.className = 'infa-template-canvas-toolbar-separator tm-search-toolbar-item';
-    separatorLi.appendChild(document.createElement('div'));
+    const separatorLi = document.createElement('li');   
+    separatorLi.className = 'tm-search-toolbar-item'; 
+    separatorLi.innerHTML = '<div class="infa-template-canvas-toolbar-separator"></div>';   
     
     const buttonLi = document.createElement('li');
     buttonLi.className = 'tm-search-toolbar-item';
